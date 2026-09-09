@@ -8,6 +8,8 @@ numero_secreto = random.randint(1, 100)
 tentativa = 0
 max_tentativas = 7
 
+
+
 while tentativa < max_tentativas:
     palpite = int(input("Digite o seu palpite: "))
     if palpite < 1 or palpite > 100:
